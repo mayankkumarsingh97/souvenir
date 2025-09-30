@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Playtime;
+    src: url(playtime.otf);
+}
+
+@font-face {
+    font-family: Graffiare;
+    src: url(./Graffiare.ttf);
+}
+
+.menu_section li a {
+    color: #000 !important;
+    font-size: 1.8rem!important;
+}
+.menu_section  li a{
+    font-family: Playtime;
+}
+
+.what_is_sovenir .heading {
+    width: 100%;
+    font-size: 3.5rem;
+    font-family: Playtime;
+    color: #000 !important;
+    font-weight: 500;
+}
+
+.what_is_sovenir .desc {
+    width: 100%;
+    font-size: 1rem;
+    font-family: Graffiare;
+    color: #000;
+}
+
+.shastri_jee,
+.gopal_jee,
+.director_jee {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 350px; */
+}
+
+.director_jee {
+    width: 100%;
+}
+
+.director_jee,
+.gopal_jee,
+.shastri_jee img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.card_desc {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 6px 5px 5px rgba(0, 0, 0, .333);
+
+}
+
+.card_desc .first_p {
+    text-align: end;
+    font-family: Graffiare, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:575px) {
+    .card_desc {
+        width: 100%;
+    }
+
+    .director_jee,
+    .gopal_jee,
+    .shastri_jee img {
+        width: 85%;
+        display: block;
+        height: auto;
+    }
+}
+
+
+
+/* It can held section */
+/* It can held section */
+/* It can held section */
+.can_held_magint_top{
+    margin-top: 8rem;
+}
+.can_held_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid #eee;
+    padding:1rem 1rem;
+    border: 3px solid rgba(156, 151, 151, 0.233);
+    box-shadow: 0 4px 6px 4px #eee;
+}
+.can_held_wrapper .desc{
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 400;
+    /* background-color: aqua; */
+    /* height: 10vh; */
+    /* font-size: 1.2rem; */
+    text-align: left;
+    padding:1.4rem 1rem;
+    font-family: Graffiare, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.can_held_img{
+    width: 100%;
+    position: absolute;
+    top: -193px;
+    left: -42px;
+}
+.can_held_img img{
+    width: 100%;
+
+}
+@media  (max-width:575px) {
+    .can_held_img{
+        position: absolute!important;
+      width: 100%!important;
+      top: -70px !important;
+      left: -21px !important;
+
+    } 
+    .can_held_img img{
+        width: 130%!important;
+    }
+    .can_held_wrapper .desc{
+        font-size: .6rem;
+        width: 100%;
+        padding:.10rem 0!important;
+    }
+    .can_held_magint_top{
+        margin-top: 4rem;
+    }
+}
+
+
+/* sign in to our news seller section */
+/* sign in to our news seller section */
+/* sign in to our news seller section */
+.news_seller{
+    position: relative;
+    
+}
+.news_seller .heading{
+    font-family: Graffiare, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+.news_seller input{
+    padding:.25rem 1rem;
+    width: 80%;
+    border: 2px solid green;
+    outline:none;
+    border-radius: 20px;
+}
+.news_seller .news_seller_button_img{
+    position:absolute;
+    width: 20%;
+    top:23px;
+    right:142px;
+    cursor: pointer;
+}
+
+@media (max-width:575px) {
+    .news_seller .news_seller_button_img{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    .news_seller input{
+        width: 100%;
+    }
+}
+
+/* Warehouse section warehouse section */
+/* Warehouse section warehouse section */
+/* Warehouse section warehouse section */
+
+.warehouse_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.warehouse_cont .wharehouse_h2{
+    font-family: Playtime;
+    font-size: 4rem;
+}
+.wharehouse_para1{
+    font-family: Graffiare;
+}
+
+.warehouse_img_container{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+.warehouse_img_container img{
+    width: 90%;
+}
+
+/* What makes us stant out section */
+/* What makes us stant out section */
+.reading_baby img{
+    width: 100%;
+}
+
+
+
+
+/* Hand showing Area */
+/* Hand showing Area */
+.souv_and_val .souv_heading p{
+    margin:0 !important;
+}
+.souv_and_val .souv_heading .first_l{
+    position: relative;
+}
+.souv_and_val .souv_heading .second_l{
+    position:absolute;
+    top:27%;
+    left:0;
+}
+.souv_and_val .souv_heading .first_l,.second_l{
+    font-size: 5.5rem;
+    font-family: Playtime;
+    padding:.25rem 0;
+    text-transform: uppercase;
+    
+}
+.souv_and_val .para{
+    font-size: 1rem;
+    font-family: Graffiare, Georgia, 'Times New Roman', Times, serif;
+}
+.souv_and_val .heading{
+    display: flex;
+}
+.sov_val_hand_image{
+    display: flex;
+    justify-content: center;
+}
+.sov_val_hand_image img{
+    width: 95%;
+}
+
+@media (max-width:575px) {
+    .souv_and_val .souv_heading .second_l{
+        position: absolute;
+        top:8%;
+        
+    }
+    .souv_and_val .souv_heading .first_l,.second_l{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .sov_val_hand_image{
+        justify-content: center;
+    }
+}
+
+@media (min-width:475px) and (max-width:600px) {
+    .souv_and_val .souv_heading .second_l{
+        margin-left: 40%;
+    }
+}
